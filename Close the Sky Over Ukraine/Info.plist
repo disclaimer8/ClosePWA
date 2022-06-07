@@ -7,7 +7,7 @@
 		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<string>en_US</string>
 	<key>CFBundleDisplayName</key>
 	<string>Close the Sky Over Ukraine</string>
 	<key>CFBundleExecutable</key>

@@ -7,5 +7,6 @@ target 'Close the Sky Over Ukraine' do
 
   # Add the pod for Firebase Cloud Messaging
   pod 'Firebase/Messaging'
-
+  pod 'FirebaseAppCheck'
+  pod 'FirebaseAnalytics'
 end

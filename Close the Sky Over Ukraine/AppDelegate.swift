@@ -1,7 +1,7 @@
 import UIKit
 import FirebaseCore
 import FirebaseMessaging
-
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,13 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
    
         UNUserNotificationCenter.current().delegate = self
 
-//        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-//        UNUserNotificationCenter.current().requestAuthorization(
-//            options: authOptions,
-//            completionHandler: {_, _ in })
-//
-//
-//        application.registerForRemoteNotifications()
+       let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+        UNUserNotificationCenter.current().requestAuthorization(
+            options: authOptions,
+            completionHandler: {_, _ in })
+
+
+        application.registerForRemoteNotifications()
 
         // [END register_for_notifications]
         return true

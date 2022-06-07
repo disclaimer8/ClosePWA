@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15FFB75604465B4FC682D449 /* Pods_Close_the_Sky_Over_Ukraine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D21FEEA946F0E0971A91AE6 /* Pods_Close_the_Sky_Over_Ukraine.framework */; };
 		595F23A525CEFBFE0053416C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F239A25CEFBFD0053416C /* Settings.swift */; };
 		595F23A625CEFBFE0053416C /* Entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 595F239B25CEFBFD0053416C /* Entitlements */; };
 		595F23A725CEFBFE0053416C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595F239C25CEFBFD0053416C /* Assets.xcassets */; };
@@ -18,14 +17,18 @@
 		595F23AE25CEFBFE0053416C /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A325CEFBFE0053416C /* Printer.swift */; };
 		595F23AF25CEFBFE0053416C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A425CEFBFE0053416C /* WebView.swift */; };
 		BF68143C282E60850000740E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF68143B282E60850000740E /* GoogleService-Info.plist */; };
+		BFE46D99284EC28100AA3833 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46D98284EC28100AA3833 /* FirebaseAnalytics */; };
+		BFE46D9F284EC28100AA3833 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46D9E284EC28100AA3833 /* FirebaseAppCheck */; };
+		BFE46DA1284EC28100AA3833 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DA0284EC28100AA3833 /* FirebaseAuth */; };
+		BFE46DA3284EC28100AA3833 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DA2284EC28100AA3833 /* FirebaseCrashlytics */; };
+		BFE46DAF284EC28100AA3833 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DAE284EC28100AA3833 /* FirebaseMessaging */; };
+		BFE46DB1284EC28100AA3833 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DB0284EC28100AA3833 /* FirebasePerformance */; };
+		BFE46DB4284F784700AA3833 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DB3284F784700AA3833 /* FirebaseDatabase */; };
 		CDC0FE292388222C002C8D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE252388222B002C8D56 /* Main.storyboard */; };
 		CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE272388222B002C8D56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D21FEEA946F0E0971A91AE6 /* Pods_Close_the_Sky_Over_Ukraine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Close_the_Sky_Over_Ukraine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C1C2162A8048FDF52B2A9D0 /* Pods-Close the Sky Over Ukraine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Close the Sky Over Ukraine.release.xcconfig"; path = "Target Support Files/Pods-Close the Sky Over Ukraine/Pods-Close the Sky Over Ukraine.release.xcconfig"; sourceTree = "<group>"; };
-		59333BAA25CFF706003392A4 /* ClosetheSkyOverUkraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosetheSkyOverUkraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		595F239A25CEFBFD0053416C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = "Close the Sky Over Ukraine/Settings.swift"; sourceTree = "<group>"; };
 		595F239B25CEFBFD0053416C /* Entitlements */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Entitlements; path = "Close the Sky Over Ukraine/Entitlements"; sourceTree = "<group>"; };
 		595F239C25CEFBFD0053416C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Close the Sky Over Ukraine/Assets.xcassets"; sourceTree = "<group>"; };
@@ -36,8 +39,9 @@
 		595F23A225CEFBFE0053416C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Close the Sky Over Ukraine/AppDelegate.swift"; sourceTree = "<group>"; };
 		595F23A325CEFBFE0053416C /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Printer.swift; path = "Close the Sky Over Ukraine/Printer.swift"; sourceTree = "<group>"; };
 		595F23A425CEFBFE0053416C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = "Close the Sky Over Ukraine/WebView.swift"; sourceTree = "<group>"; };
-		BEE8E5C625AE96C07F8AADED /* Pods-Close the Sky Over Ukraine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Close the Sky Over Ukraine.debug.xcconfig"; path = "Target Support Files/Pods-Close the Sky Over Ukraine/Pods-Close the Sky Over Ukraine.debug.xcconfig"; sourceTree = "<group>"; };
 		BF68143B282E60850000740E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFC2DBC5284B97E600D677B0 /* Close the Sky Over UkraineRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Close the Sky Over UkraineRelease.entitlements"; path = "Close the Sky Over Ukraine/Close the Sky Over UkraineRelease.entitlements"; sourceTree = "<group>"; };
+		BFFCF2622834593F00C89695 /* ClosetheSkyOverUkraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosetheSkyOverUkraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC0FE262388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Close the Sky Over Ukraine/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CDC0FE282388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Close the Sky Over Ukraine/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,33 +51,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FFB75604465B4FC682D449 /* Pods_Close_the_Sky_Over_Ukraine.framework in Frameworks */,
+				BFE46DAF284EC28100AA3833 /* FirebaseMessaging in Frameworks */,
+				BFE46D9F284EC28100AA3833 /* FirebaseAppCheck in Frameworks */,
+				BFE46DA1284EC28100AA3833 /* FirebaseAuth in Frameworks */,
+				BFE46DA3284EC28100AA3833 /* FirebaseCrashlytics in Frameworks */,
+				BFE46DB1284EC28100AA3833 /* FirebasePerformance in Frameworks */,
+				BFE46DB4284F784700AA3833 /* FirebaseDatabase in Frameworks */,
+				BFE46D99284EC28100AA3833 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30FCACC6A7BF53CD6D9CF6C0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BEE8E5C625AE96C07F8AADED /* Pods-Close the Sky Over Ukraine.debug.xcconfig */,
-				4C1C2162A8048FDF52B2A9D0 /* Pods-Close the Sky Over Ukraine.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		90E46E861CB86F5FAF46BED9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2D21FEEA946F0E0971A91AE6 /* Pods_Close_the_Sky_Over_Ukraine.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CD89F880237E9D9200C436A1 = {
 			isa = PBXGroup;
 			children = (
+				BFC2DBC5284B97E600D677B0 /* Close the Sky Over UkraineRelease.entitlements */,
 				595F23A225CEFBFE0053416C /* AppDelegate.swift */,
 				595F239C25CEFBFD0053416C /* Assets.xcassets */,
 				595F239B25CEFBFD0053416C /* Entitlements */,
@@ -87,9 +81,7 @@
 				CDC0FE272388222B002C8D56 /* LaunchScreen.storyboard */,
 				CDC0FE252388222B002C8D56 /* Main.storyboard */,
 				595F23A425CEFBFE0053416C /* WebView.swift */,
-				30FCACC6A7BF53CD6D9CF6C0 /* Pods */,
-				90E46E861CB86F5FAF46BED9 /* Frameworks */,
-				59333BAA25CFF706003392A4 /* ClosetheSkyOverUkraine.app */,
+				BFFCF2622834593F00C89695 /* ClosetheSkyOverUkraine.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,19 +92,26 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD89F89D237E9D9300C436A1 /* Build configuration list for PBXNativeTarget "Close the Sky Over Ukraine" */;
 			buildPhases = (
-				E07DC62CDB59F65280F7057D /* [CP] Check Pods Manifest.lock */,
 				CD89F885237E9D9200C436A1 /* Sources */,
 				CD89F886237E9D9200C436A1 /* Frameworks */,
 				CD89F887237E9D9200C436A1 /* Resources */,
-				592CB04773CB45D6CE5DF117 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Close the Sky Over Ukraine";
+			packageProductDependencies = (
+				BFE46D98284EC28100AA3833 /* FirebaseAnalytics */,
+				BFE46D9E284EC28100AA3833 /* FirebaseAppCheck */,
+				BFE46DA0284EC28100AA3833 /* FirebaseAuth */,
+				BFE46DA2284EC28100AA3833 /* FirebaseCrashlytics */,
+				BFE46DAE284EC28100AA3833 /* FirebaseMessaging */,
+				BFE46DB0284EC28100AA3833 /* FirebasePerformance */,
+				BFE46DB3284F784700AA3833 /* FirebaseDatabase */,
+			);
 			productName = "Close the Sky Over Ukraine";
-			productReference = 59333BAA25CFF706003392A4 /* ClosetheSkyOverUkraine.app */;
+			productReference = BFFCF2622834593F00C89695 /* ClosetheSkyOverUkraine.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +122,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					CD89F888237E9D9200C436A1 = {
@@ -133,7 +132,7 @@
 				};
 			};
 			buildConfigurationList = CD89F884237E9D9200C436A1 /* Build configuration list for PBXProject "Close the Sky Over Ukraine" */;
-			compatibilityVersion = "Xcode 11.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +140,9 @@
 				Base,
 			);
 			mainGroup = CD89F880237E9D9200C436A1;
+			packageReferences = (
+				BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CD89F880237E9D9200C436A1;
 			projectDirPath = "";
 			projectRoot = "";
@@ -164,48 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		592CB04773CB45D6CE5DF117 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Close the Sky Over Ukraine/Pods-Close the Sky Over Ukraine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Close the Sky Over Ukraine/Pods-Close the Sky Over Ukraine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Close the Sky Over Ukraine/Pods-Close the Sky Over Ukraine-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E07DC62CDB59F65280F7057D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Close the Sky Over Ukraine-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD89F885237E9D9200C436A1 /* Sources */ = {
@@ -247,14 +207,19 @@
 		CD89F89B237E9D9300C436A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = shallow;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -278,15 +243,17 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 6T3935576N;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -298,28 +265,40 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				RUN_DOCUMENTATION_COMPILER = NO;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
 		CD89F89C237E9D9300C436A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = shallow;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -343,13 +322,17 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 6T3935576N;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -357,70 +340,123 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				RUN_DOCUMENTATION_COMPILER = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
 		CD89F89E237E9D9300C436A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE8E5C625AE96C07F8AADED /* Pods-Close the Sky Over Ukraine.debug.xcconfig */;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_STICKER_CONTENT = YES;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = "Close the Sky Over Ukraine/Entitlements/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2.01;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6T3935576N;
+				ENABLE_INCREMENTAL_DISTILL = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GCC_FAST_MATH = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_UNROLL_LOOPS = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
 				INFOPLIST_FILE = "Close the Sky Over Ukraine/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				LLVM_LTO = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.2;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.finalclosesky;
 				PRODUCT_NAME = ClosetheSkyOverUkraine;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		CD89F89F237E9D9300C436A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C1C2162A8048FDF52B2A9D0 /* Pods-Close the Sky Over Ukraine.release.xcconfig */;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = "Close the Sky Over Ukraine/Entitlements/Entitlements.plist";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_STICKER_CONTENT = YES;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = "Close the Sky Over Ukraine/Close the Sky Over UkraineRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2.01;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6T3935576N;
+				ENABLE_INCREMENTAL_DISTILL = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
 				INFOPLIST_FILE = "Close the Sky Over Ukraine/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				LLVM_LTO = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.finalclosesky;
 				PRODUCT_NAME = ClosetheSkyOverUkraine;
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -446,6 +482,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFE46D98284EC28100AA3833 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BFE46D9E284EC28100AA3833 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		BFE46DA0284EC28100AA3833 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BFE46DA2284EC28100AA3833 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		BFE46DAE284EC28100AA3833 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		BFE46DB0284EC28100AA3833 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		BFE46DB3284F784700AA3833 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CD89F881237E9D9200C436A1 /* Project object */;
 }

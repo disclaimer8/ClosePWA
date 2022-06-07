@@ -4,7 +4,4 @@
    <FileRef
       location = "group:Close the Sky Over Ukraine.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
 </Workspace>
