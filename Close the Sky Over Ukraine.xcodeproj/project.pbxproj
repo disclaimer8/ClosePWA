@@ -16,14 +16,15 @@
 		595F23AD25CEFBFE0053416C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A225CEFBFE0053416C /* AppDelegate.swift */; };
 		595F23AE25CEFBFE0053416C /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A325CEFBFE0053416C /* Printer.swift */; };
 		595F23AF25CEFBFE0053416C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A425CEFBFE0053416C /* WebView.swift */; };
+		BF23B3AD284FF06100D1D053 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF23B3AC284FF06100D1D053 /* FirebaseAnalyticsSwift */; };
+		BF23B3AF284FF06700D1D053 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF23B3AE284FF06700D1D053 /* FirebaseDatabaseSwift */; };
+		BF23B3B1284FF07200D1D053 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = BF23B3B0284FF07200D1D053 /* FirebaseInAppMessagingSwift-Beta */; };
 		BF68143C282E60850000740E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF68143B282E60850000740E /* GoogleService-Info.plist */; };
-		BFE46D99284EC28100AA3833 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46D98284EC28100AA3833 /* FirebaseAnalytics */; };
 		BFE46D9F284EC28100AA3833 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46D9E284EC28100AA3833 /* FirebaseAppCheck */; };
 		BFE46DA1284EC28100AA3833 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DA0284EC28100AA3833 /* FirebaseAuth */; };
 		BFE46DA3284EC28100AA3833 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DA2284EC28100AA3833 /* FirebaseCrashlytics */; };
 		BFE46DAF284EC28100AA3833 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DAE284EC28100AA3833 /* FirebaseMessaging */; };
 		BFE46DB1284EC28100AA3833 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DB0284EC28100AA3833 /* FirebasePerformance */; };
-		BFE46DB4284F784700AA3833 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BFE46DB3284F784700AA3833 /* FirebaseDatabase */; };
 		CDC0FE292388222C002C8D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE252388222B002C8D56 /* Main.storyboard */; };
 		CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE272388222B002C8D56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -53,17 +54,25 @@
 			files = (
 				BFE46DAF284EC28100AA3833 /* FirebaseMessaging in Frameworks */,
 				BFE46D9F284EC28100AA3833 /* FirebaseAppCheck in Frameworks */,
+				BF23B3B1284FF07200D1D053 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				BFE46DA1284EC28100AA3833 /* FirebaseAuth in Frameworks */,
+				BF23B3AF284FF06700D1D053 /* FirebaseDatabaseSwift in Frameworks */,
 				BFE46DA3284EC28100AA3833 /* FirebaseCrashlytics in Frameworks */,
+				BF23B3AD284FF06100D1D053 /* FirebaseAnalyticsSwift in Frameworks */,
 				BFE46DB1284EC28100AA3833 /* FirebasePerformance in Frameworks */,
-				BFE46DB4284F784700AA3833 /* FirebaseDatabase in Frameworks */,
-				BFE46D99284EC28100AA3833 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF23B3AB284FF06100D1D053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD89F880237E9D9200C436A1 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +91,7 @@
 				CDC0FE252388222B002C8D56 /* Main.storyboard */,
 				595F23A425CEFBFE0053416C /* WebView.swift */,
 				BFFCF2622834593F00C89695 /* ClosetheSkyOverUkraine.app */,
+				BF23B3AB284FF06100D1D053 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +112,14 @@
 			);
 			name = "Close the Sky Over Ukraine";
 			packageProductDependencies = (
-				BFE46D98284EC28100AA3833 /* FirebaseAnalytics */,
 				BFE46D9E284EC28100AA3833 /* FirebaseAppCheck */,
 				BFE46DA0284EC28100AA3833 /* FirebaseAuth */,
 				BFE46DA2284EC28100AA3833 /* FirebaseCrashlytics */,
 				BFE46DAE284EC28100AA3833 /* FirebaseMessaging */,
 				BFE46DB0284EC28100AA3833 /* FirebasePerformance */,
-				BFE46DB3284F784700AA3833 /* FirebaseDatabase */,
+				BF23B3AC284FF06100D1D053 /* FirebaseAnalyticsSwift */,
+				BF23B3AE284FF06700D1D053 /* FirebaseDatabaseSwift */,
+				BF23B3B0284FF07200D1D053 /* FirebaseInAppMessagingSwift-Beta */,
 			);
 			productName = "Close the Sky Over Ukraine";
 			productReference = BFFCF2622834593F00C89695 /* ClosetheSkyOverUkraine.app */;
@@ -347,7 +358,7 @@
 				RUN_DOCUMENTATION_COMPILER = NO;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
-				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_OPTIMIZE_OBJECT_LIFETIME = NO;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.finalclosesky;
 				PRODUCT_NAME = ClosetheSkyOverUkraine;
 				SUPPORTS_MACCATALYST = YES;
-				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_OPTIMIZE_OBJECT_LIFETIME = YES;
 				SWIFT_VERSION = 5.0;
@@ -495,10 +506,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BFE46D98284EC28100AA3833 /* FirebaseAnalytics */ = {
+		BF23B3AC284FF06100D1D053 /* FirebaseAnalyticsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
+			productName = FirebaseAnalyticsSwift;
+		};
+		BF23B3AE284FF06700D1D053 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		BF23B3B0284FF07200D1D053 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
 		};
 		BFE46D9E284EC28100AA3833 /* FirebaseAppCheck */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -524,11 +545,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebasePerformance;
-		};
-		BFE46DB3284F784700AA3833 /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BFE46D97284EC28100AA3833 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
