@@ -107,7 +107,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         sendPushToWebView(userInfo: userInfo)
 
         // Change this to your preferred presentation option
-        completionHandler([[.alert, .sound]])
+        completionHandler([[.banner, .sound]])
       }
 
       func userNotificationCenter(_ center: UNUserNotificationCenter,
