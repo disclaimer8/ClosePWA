@@ -9,7 +9,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en_US</string>
 	<key>CFBundleDisplayName</key>
-	<string>Close the Sky Over Ukraine</string>
+	<string>Sky Over Ukraine</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -106,6 +106,8 @@
 	<array>
 		<string>closetheskyoverukraine.com</string>
 		<string>closetheskyoverukraine.com</string>
+		<string>skyoverukraine.com</string>
+		<string>skyoverukraine.com</string>
 	</array>
 </dict>
 </plist>
