@@ -6,8 +6,8 @@
 	<string>production</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:closetheskyoverukraine.com, skyoverukraine.com</string>
-		<string>webcredentials:closetheskyoverukraine.com, skyoverukraine.com</string>
+		<string>applinks:closetheskyoverukraine.com</string>
+		<string>webcredentials:closetheskyoverukraine.com</string>
 	</array>
 	<key>com.apple.developer.devicecheck.appattest-environment</key>
 	<string>development</string>

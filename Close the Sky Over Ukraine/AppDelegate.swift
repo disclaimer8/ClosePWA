@@ -107,7 +107,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         sendPushToWebView(userInfo: userInfo)
 
         // Change this to your preferred presentation option
-        completionHandler([[.banner, .sound]])
+          if #available(iOS 14.0, *) {
+              completionHandler([[.banner, .sound]])
+          } else {
+              // Fallback on earlier versions
+              completionHandler([[.alert, .sound]])
+          }
       }
 
       func userNotificationCenter(_ center: UNUserNotificationCenter,
